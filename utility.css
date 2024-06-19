@@ -1,0 +1,90 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);   
+}/* this is used to invert the colors that is the color which is white becomes black and the color that is black becomes white */
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* General scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;  /* Darker background for the track */
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3a3a3a;  /* Dark grey color for the thumb */
+    border-radius: 10px;
+    border: 2px solid #1e1e1e;  /* Adds a border to create a gap effect */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;  /* Lighter grey color when hovered */
+}
+
+/* Corner (when both horizontal and vertical scrollbars are visible) */
+::-webkit-scrollbar-corner {
+    background: #1e1e1e;
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;  /* "auto" or "thin" */
+    scrollbar-color: #3a3a3a #1e1e1e;  /* Thumb and track color */
+}
+
+/* Optional: Dark theme styling */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+/* Optional: Additional styling for scrollable content */
+.scrollable-content {
+    overflow-y: scroll;
+    height: 300px;  /* Example height */
+    padding-right: 10px;  /* Ensure the scrollbar doesn't overlap content */
+}

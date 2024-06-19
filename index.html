@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left  bg-black">
+            <div class="close">
+                <img src="images/cross.svg" alt="">
+            </div>
+            <div class="home p-1 m-1 bg-grey rounded">
+                <div class="logo">
+                    <div class="logo">
+                        <img class="invert" src="images/logo.svg" alt="">
+                    </div>
+                </div>
+                <ul>
+                    <li><img class="invert" src="images/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="images/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library p-1 m-1 rounded bg-grey">
+                <div class="heading">
+                    <img class="invert" src="images/playlist.svg" alt="">
+                    <h2>Your Playlist</h2>
+                </div>
+
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img src="music.svg" alt="">
+                            <div class="info">
+                                <div>song name</div>
+                                <div>song artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>play now</span>
+                                <img src="images/play.svg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="#"><span>Legal</span></a></div>
+                    <div><a href="#"><span>Privacy centre</span></a></div>
+                    <div><a href="#"><span>Privacy Policy</span></a></div>
+                    <div><a href="#"><span>Cookies</span></a></div>
+                    <div><a href="#"><span>About Ads</span></a></div>
+                    <div><a href="#"><span>Legal</span></a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right p-1 m-1 bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="flex">
+
+                        <img class="hamburger" src="images/hamburger.svg" alt="">
+
+                        <!-- left -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#9b9b9b" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <!-- right -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#9b9b9b" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button>Signup</button>
+                    <button>login</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist">
+                <h1 style="padding: 0 29px;">Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <div data-folder="Romantix" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="54" height="54"
+                                color="#000000" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#1ED760" />
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+
+
+                        <img src="images/valentine.png">
+                        <h2>Valentine Play..</h2>
+                        <p>India's ultimate love playlist</p>
+                    </div>
+
+                    <div data-folder="Bollywood_Songs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="54" height="54"
+                                color="#000000" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#1ED760" />
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+
+
+                        <img src="images/Bollywood.png">
+                        <h2>Bollywood</h2>
+                        <p>Jab Baje tab seedha dil ke centre pe lage❤️</p>
+                    </div>
+
+                    <div data-folder="pcs" class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="54" height="54"
+                                color="#000000" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#1ED760" />
+                                <path
+                                    d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                    fill="black" />
+                            </svg>
+                        </div>
+
+
+                        <img src="https://mosaic.scdn.co/300/ab67616d00001e021391b1fdb63da53e5b112224ab67616d00001e0297e971f3e53475091dc8d707ab67616d00001e029a494f7d8909a6cc4ceb74acab67616d00001e02d304ba2d71de306812eebaf4"
+                            data-testid="card-image" alt=""
+                            class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+                        <h2>Romantix</h2>
+                        <p>Songs that hit something inside</p>
+                    </div>
+
+
+                </div>
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="aboveBar">
+
+                        <div class="songinfo"></div>
+
+                        <div class="songbuttons">
+                            <img id="previous" src="images/prevsong.svg" alt="">
+                            <img id="play" src="images/play.svg" alt="">
+                            <img id="next" src="images/nextsong.svg" alt="">
+                        </div>
+
+                        <div class="songtime">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
