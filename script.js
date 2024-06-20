@@ -22,7 +22,7 @@ async function getSongs(folder) {
 
     //SHOW ALL THE SONGS IN THE PLAYLIST
     let songUL = document.querySelector(".songList ul")
-        //or u can also use let songUL = document.querySelector(".songList").getElementsByTagName("ul")[0];
+       
     songUL.innerHTML = ""  
     for (const song of songs) {
             // songUL.innerHTML = songUL.innerHTML + `<li> ${song.replace("%20","  ")} </li>`;
@@ -39,16 +39,6 @@ async function getSongs(folder) {
         </li>`;
     }
     
-        // audio.addEventListener("loadeddata", () => {
-        //     console.log(audio.duration, audio.currentSrc, audio.currentTime)  
-        //     The duration variable now holds the duration (in seconds) of the audio clip
-    
-        //     This event is fired when the browser has loaded enough data to start playing the media, but it may not have completely loaded all of it.
-        //     It indicates that the first frame of the media is now available for playback.
-    
-    
-        //   }); 
-    
     //ATTACH AN EVENT LISTENER TO EACH SONG
     Array.from(document.querySelector(".songList").getElementsByTagName("li")).forEach(e=>{
         e.addEventListener("click", element => {
@@ -60,11 +50,6 @@ async function getSongs(folder) {
         
     
 }
-
-// split("/songs/"): This splits the URL into an array of substrings using "/songs/" as the separator.
-// For example, if element.href is "http://127.0.0.1:5500/songs/song1.mp3", split() will create an array ["http:", "127.0.0.1:5500", "song1.mp3"].
-// [1]: This selects the second element from the array obtained after splitting.
-// In the previous example, it selects "song1.mp3".
 
 const playMusic = (track) =>{
     // let audio = new Audio("/songs/" + track)
